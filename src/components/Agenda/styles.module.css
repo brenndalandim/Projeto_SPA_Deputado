@@ -1,0 +1,33 @@
+.sectionAgenda .containerScrollEventos {
+  overflow-x: scroll;
+}
+
+.containerScrollEventos::-webkit-scrollbar {
+  height: 2px;
+}
+
+.containerScrollEventos::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+}
+
+.containerScrollEventos .containerEventos {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3rem;
+  width: fit-content;
+  padding-bottom: 0.2rem;
+}
+
+@media (min-width: 768px) {
+  .sectionAgenda .containerScrollEventos {
+    display: flex;
+    justify-content: center;
+  }
+
+  .containerScrollEventos .containerEventos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}

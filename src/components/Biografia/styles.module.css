@@ -1,0 +1,44 @@
+.containerBiografia {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.containerBiografia .img {
+  width: 80%;
+  height: 200px;
+
+  margin: auto;
+}
+
+.containerFeitos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.containerFeitos .feito {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.feito .marcador {
+  background-color: var(--secondary-color);
+  border-radius: var(--bd-radius);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.feito i {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .feito .marcador {
+    color: var(--black);
+  }
+}

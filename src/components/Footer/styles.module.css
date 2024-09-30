@@ -1,0 +1,44 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+  gap: 0.3rem;
+
+  background-color: var(--header-footer-bg);
+  color: #fff;
+}
+
+footer .contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: inherit;
+  border-top: 1px solid #ffffff57;
+  padding: 0.3rem 0;
+}
+
+footer .redesSociais {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+
+  border-top: 1px solid #ffffff57;
+  padding-top: 0.3rem;
+}
+
+.redesSociais a {
+  color: inherit;
+}
+
+footer .copy {
+  margin-top: 0.4rem;
+  margin-bottom: -0.5rem;
+  padding-top: 0.4rem;
+  font-size: 0.8rem;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid;
+}
