@@ -8,6 +8,9 @@ import Footer from "./components/Footer";
 import Fab from "@mui/material/Fab";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
+import bannerHorizontal from './assets/img/bannerHorizontal.png'
+import bannerVertical from './assets/img/bannerVertical.png'
+
 export default function App() {
   return (
     <div className="App">
@@ -15,10 +18,10 @@ export default function App() {
       <picture>
         <source
           media="(min-width:768px)"
-          srcSet="https://files.fm/thumb_show.php?i=x5hc2ubn6t"
+          srcSet={bannerHorizontal}
         />
         <img
-          src="https://files.fm/thumb_show.php?i=en3wmzxq7x"
+          src={bannerVertical}
           alt="banner Marco Madureira vote 15"
         />
       </picture>

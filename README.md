@@ -21,12 +21,3 @@ Para usar a aplicação, basta acessar o projeto através do link. Navegue pela 
 ## Usos externos
 - Bootstrap Icons
 - Fonts Google (Montserrat)
-
-
-
-**Atesto aqui que não foi usado Chat gpt ou ajuda de qualquer IA, toda lógica de programação foi desenvolvida por mim, assim como as estilizações.**
-
-
-### links imagens online
-https://files.fm/u/wvtdab2zqq link img banners (vai ser deletado 9 de outubro)
-https://files.fm/u/g327nqs9f7 link img propostas
