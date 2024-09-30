@@ -16,7 +16,7 @@ Criar uma Single Page Application responsiva e otimizada primeiramente para disp
 - Ícone e title na aba web do projeto, além de descrição quando compartilhado
 
 ## Uso
-Para usar a aplicação, basta acessar o projeto através do link. Navegue pela interface para explorar suas funcionalidades.
+Para usar a aplicação, basta acessar o projeto através do [link](https://projeto-spa-deputado.vercel.app/). Navegue pela interface para explorar suas funcionalidades.
 
 ## Usos externos
 - Bootstrap Icons
